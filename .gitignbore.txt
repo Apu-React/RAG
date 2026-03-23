@@ -1,4 +1,0 @@
-chroma_store/
-__pycache__/
-*.pdf
-.env
