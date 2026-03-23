@@ -4,9 +4,9 @@ from sentence_transformers import SentenceTransformer
 import os
 
 
-PDF_PATH = r"C:\Users\Admin\OneDrive\hr_rag\hr_policy.pdf"
+PDF_PATH = r"C:\Users\Admin\OneDrive\hr_rag\hr_policy_sample.pdf"
 CHROMA_DIR = "./chroma_store"
-COLLECTION = "hr_policy"
+COLLECTION = "hr_policy_sample"
 CHUNK_SIZE = 500       # characters per chunk
 CHUNK_OVERLAP = 100    # overlap between chunks
 
